@@ -34,7 +34,7 @@ namespace Tyuiu.MalchikhinaVV.Sprint2.Task6.V10.Lib
                     n--;
                     break;
             }
-            return $"{n}.{m}.{g}";
+            return $"{n:D2}.{m:D2}.{g}";
         }
     }
 }
